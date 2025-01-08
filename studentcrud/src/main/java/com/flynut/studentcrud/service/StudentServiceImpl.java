@@ -3,10 +3,12 @@ package com.flynut.studentcrud.service;
 import com.flynut.studentcrud.entity.Student;
 import com.flynut.studentcrud.repository.StudentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class StudentServiceImpl implements StudentService{
 
     @Autowired
